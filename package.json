@@ -5,6 +5,12 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/client.js",
+      "require": "./dist/cjs/client.cjs"
+    }
+  },
   "files": [
     "dist"
   ],
