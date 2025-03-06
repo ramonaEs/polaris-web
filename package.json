@@ -5,7 +5,9 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
-  "exports": {".": "./dist/index.js"},
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "files": [
     "dist"
   ],
@@ -54,6 +56,6 @@
     "examples/*"
   ],
   "dependencies": {
-    "signify-polaris-web": "github:ramonaEs/polaris-web#exports"
+    "signify-polaris-web-meister": "github:ramonaEs/polaris-web#exports"
   }
 }
