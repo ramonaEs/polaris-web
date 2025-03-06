@@ -1,4 +1,4 @@
-import { AuthorizeResult, createClient, CreateCredentialResult, ExtensionClient } from "signify-polaris-web";
+import { AuthorizeResult, createClient, CreateCredentialResult, ExtensionClient } from "signify-polaris-web-meister";
 import { FormEvent, useEffect, useState } from "react";
 
 export function App() {

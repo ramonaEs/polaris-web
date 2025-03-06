@@ -1,13 +1,11 @@
 {
-  "name": "signify-polaris-web",
-  "version": "1.0.2",
-  "description": "companion package for signify browser extension",
+  "name": "signify-polaris-web-meister",
+  "version": "1.4.2",
+  "description": "companion package for signify browser extension -meister",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
-  "exports": {
-    ".": "./dist/index.js"
-  },
+  "exports": {".": "./dist/index.js"},
   "files": [
     "dist"
   ],
