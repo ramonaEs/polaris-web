@@ -6,9 +6,7 @@
   "types": "./dist/index.d.ts",
   "type": "module",
   "exports": {
-    ".": {
-      "import": "./dist/client.js"
-    }
+    ".": "./dist/client.js"
   },
   "files": [
     "dist"
